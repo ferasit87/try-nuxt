@@ -1,19 +1,19 @@
 # blogs
 
-> My shining Nuxt.js project
+> My First Nuxt.js project
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ yarn install
+$ npm i
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ npm run dev
 
 # build for production and launch server
-$ yarn run build
-$ yarn start
+$ npm run build
+$ npm start
 
 # generate static project
 $ yarn run generate
