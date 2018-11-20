@@ -14,11 +14,10 @@ export default {
   components :{
     AppPostList: PostList,
   }, 
-  asyncData(context, callback){    
-    setTimeout(()=>{
-      console.log('assync');
-      callback(null, {posts : data.allPosts});      
-    },200);
+  computed :{
+    posts (){
+      return this.$store.getters.loadedPosts;
+    }
   } 
 }
 </script>
